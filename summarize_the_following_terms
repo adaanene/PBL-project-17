@@ -1,5 +1,5 @@
 **IP ADDRESS**
-An IP address is a unique identifier that each device on a network must have for communication purposes. There are two versions of an IP address called IPv4 and IPv6. An IPv4 address is a 32-bit numeric address written as four number separated by a period. Each number separated by a period represents an *octet*, so in total there are 4 octets in IPv4 address. An octet in IPv4 can be a number from 0 to 255.
+An IP address is a unique identifier that each device on a network must have for communication purposes. There are two versions of an IP address called IPv4 and IPv6. An IPv4 address is a 32-bit numeric address written as four number separated by a period. Each number separated by a period represents an octet, so in total there are 4 octets in IPv4 address. An octet in IPv4 can be a number from 0 to 255.
 
 There are two parts in an IP address, the first part is for the network address and the second for the host address. The network address is a number that’s assigned to a network, so every network will have a unique address. The host address is a number that is assigned to a host within that network i.e., each host within a network will have a unique host address. 
 
@@ -41,25 +41,25 @@ The Open Systems Interconnection (OSI) model describes seven layers that compute
 
 The 7 layers in the OSI model are:
 
-`7 – Application`
+7 – Application
 This is where human-computer interaction happens, and this layer is used by end-user software such as web browsers and email clients. As such it provides protocols It provides protocols that allow software to send and receive information and present meaningful data to users such as HTTP, FTP, SMTP, and DNS.
 
-`6 – Presentation`
+6 – Presentation
 Layer 6 prepares data for applications, it handles translation, encryption, and compression. It ensures data compatibility between devices with different encoding methods and manages encryption for secure communication. Additionally, it compresses data for more efficient transfer to Layer 5.
 
-`5 – Session`
+5 – Session
 The session layer creates communication channels, called sessions, between devices. It is responsible for opening sessions, ensuring they remain open and functional while data is being transferred, and closing them when communication ends. The session layer can also set checkpoints during a data transfer—if the session is interrupted, devices can resume data transfer from the last checkpoint.
 
-`4 – Transport`
+4 – Transport
 Layer 4, the transport layer, is responsible for end-to-end communication through segmenting data during transmission and reassembling it on the receiving end. Additionally, it plays a vital role in flow control, ensuring an optimal transmission rate to prevent overwhelming slower receivers. Error control is another responsibility, as it guarantees data completeness and requests retransmissions if necessary for a reliable data transfer process.
 
-`3 – Network`
+3 – Network
 This layer facilitates data transfer between two different networks and has two main functions. One is breaking up segments into network packets and reassembling the packets on the receiving end. The other is routing packets by discovering the best path across a physical network. The network layer uses network addresses (typically Internet Protocol addresses) to route packets to a destination node.
 
-`2 – Data Link`
+2 – Data Link
 The Data Link layer facilitates transfer between two devices on the same network. It breaks packets from layer 3 into smaller pieces, called frames, and sends them to their destination. It is also responsible for flow control and error control in intra-network communication.
 
-`1 – Physical`
+1 – Physical
 This layer includes the physical equipment involved in the data transfer, such as the cables and switches. This is layer converts data into a bit stream, which is a string of 1s and 0s, while taking care of bit rate control.
 
 **THE TCP/IP MODEL**
@@ -82,7 +82,7 @@ In the TCP/IP model, the four layers are:
 •	The biggest difference between the two models is that the OSI model segments multiple functions that the TCP/IP model groups into single layers. This is true of both the application and network access layers of the TCP/IP model, which contain multiple layers outlined within the OSI model.
 
 
-**Explain the difference between assume role policy and role policy:**
+**DIFFERENCE BETWEEN ASSUME ROLE POLICY AND ROLE POLICY**
 
 1.	Assume Role Policy:
 •	In AWS IAM, an "assume role policy" is associated with an IAM role. This policy defines which AWS entities (such as AWS users, services, or other accounts) are allowed to assume that role.
