@@ -77,7 +77,7 @@ In the TCP/IP model, the four layers are:
 2. Internet layer: Corresponds to layer 3 in the OSI model.
 1. Network access layer: Combines the processes of layers 1 and 2 in the OSI model.
 
-**TCP/ IP vs OSI:**
+**TCP/ IP vs OSI**
 •	Both the TCP/IP and OSI models provide logical ways of networking, as well as the processing of information using a layered system. In both systems, each layer has a specific function. This makes it easier to pinpoint where issues are occurring in the event of a failure.
 •	The biggest difference between the two models is that the OSI model segments multiple functions that the TCP/IP model groups into single layers. This is true of both the application and network access layers of the TCP/IP model, which contain multiple layers outlined within the OSI model.
 
